@@ -17,5 +17,11 @@
     <string name="gps_settings">GPS Setting</string>
     <string name="gps_enabled">GPS is not enabled!</string>
     <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
+
+    <string name="action_crop_recommendation">Crop Recommendation</string>
 </resources>

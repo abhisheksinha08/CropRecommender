@@ -207,9 +207,16 @@ public class LoginActivity extends AppCompatActivity {
 
     private void onLoginSuccess()
     {
-        Toast.makeText(this, "Logged In", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        this.finish();
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        this.finish();
+    }
 
     /**
      * Represents an asynchronous login/registration task used to authenticate
